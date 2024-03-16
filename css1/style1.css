@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
+@font-face {
+    font-family: "Raleway";
+    src: url(../font1/Raleway/Raleway-Regular.ttf) format(truetype),
+        url(../font1/Raleway/Raleway-Bold.ttf) format(truetype),
+        url(../font1/Raleway/Raleway-Italic.ttf) format(truetype);
+}
+
 #body {
 
     background-color: #782221;
@@ -113,12 +120,6 @@ h3 {
     color: black
 }
 
-@font-face {
-    font-family: "Raleway";
-    src: url(../font1/Raleway/Raleway-Regular.ttf) format(truetype),
-        url(../font1/Raleway/Raleway-Bold.ttf) format(truetype),
-        url(../font1/Raleway/Raleway-Italic.ttf) format(truetype);
-}
 
 /*#div0 {
     font-family: "Raleway";
