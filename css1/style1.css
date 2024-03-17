@@ -17,15 +17,16 @@
     font-family: "Raleway";
 }
 
-/*#div1{
+#header {
     display: flex;
     justify-content: center;
- 
-}*/
+
+}
+
 #pro {
     border-radius: 50%;
     box-shadow: 0 0 20px #dbc2a4;
-    width: 50%;
+    width: 100px;
     height: auto;
 }
 
@@ -77,11 +78,18 @@ a:hover {
     color: white;
     width: 300px;
     justify-content: space-evenly;
-
+    ;
 }
 
 #aside_text {
-    text-indent: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 30px;
+    word-spacing: 2px;
+
 }
 
 #corps {
