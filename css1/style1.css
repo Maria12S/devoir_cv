@@ -7,19 +7,31 @@
         url(../font1/Raleway/Raleway-Italic.ttf) format(truetype);
 }
 
-#body {
-
-    background-color: #782221;
+body {
     width: 1160px;
+    height: auto;
     margin: auto;
     border-right: 2px solid black;
     box-sizing: border-box;
     font-family: "Raleway";
+    font-weight: 400;
+
+
+}
+
+header,
+main,
+footer {
+    background-color: #782221;
 }
 
 #header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 
 }
 
@@ -65,20 +77,15 @@ a:hover {
     text-decoration: underline;
 }
 
-#aside,
-#corps {
+#contenue {
     display: flex;
-    flex-flow: column wrap;
-    align-content: space-around;
-
-
+    justify-content: space-between;
 }
 
 #aside {
     color: white;
     width: 300px;
     justify-content: space-evenly;
-    ;
 }
 
 #aside_text {
@@ -92,10 +99,21 @@ a:hover {
 
 }
 
+#propos,
+#interet,
+#Langue {
+    text-indent: 30px;
+}
+
 #corps {
+    display: flex;
     background-color: white;
     width: 860px;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: 30PX;
+    flex-direction: column;
+    text-indent: 5px;
 }
 
 #text_exp:hover,
@@ -106,8 +124,8 @@ a:hover {
 
 #footer {
     display: flex;
-    justify-content: space-between;
-    width: 200px;
+    justify-content: center;
+    align-items: flex-start;
 
 }
 
@@ -119,24 +137,31 @@ a:hover {
 
 #github,
 #linkedin {
-    width: 80PX;
+    width: 50PX;
     height: auto;
+    margin: 10px;
 }
 
 h3 {
     background-color: #dbc2a4;
-    color: black
+    color: black;
+    margin-left: 20PX;
+
 }
-
-
-/*#div0 {
-    font-family: "Raleway";
-    essai git
-}*/
 
 h1,
 h2,
 h3 {
     font-family: "Lato", sans-serif;
 
+}
+
+h4,
+#p_exp,
+#p_dip {
+    margin-left: 20PX;
+}
+
+#p_dip {
+    line-height: 2em;
 }
