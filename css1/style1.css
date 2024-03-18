@@ -91,6 +91,8 @@ a:hover {
 #interet,
 #Langue {
     text-indent: 30px;
+    margin: 0%;
+    margin-top: 10px;
 }
 
 #corps {
